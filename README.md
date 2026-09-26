@@ -1,16 +1,47 @@
-# React + Vite
+# Task Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive frontend Task Management Dashboard built using React, React Router, Tailwind CSS, and Vite.
 
-Currently, two official plugins are available:
+The application allows users to manage tasks through a clean dashboard interface with task creation, editing, deletion, searching, filtering, status tracking, and localStorage persistence.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Login page with form validation
+- Remember Me functionality
+- Protected routes
+- Responsive dashboard
+- Task statistics
+  - Total Tasks
+  - Pending Tasks
+  - In Progress Tasks
+  - Completed Tasks
+- Task progress indicator
+- Recent tasks section
+- View all tasks
+- Add new tasks
+- Edit existing tasks
+- Delete tasks with confirmation
+- Task details page
+- Search tasks by title
+- Filter tasks by status
+- Filter tasks by priority
+- Status and priority badges
+- Empty state handling
+- Loading state
+- localStorage persistence
+- Responsive sidebar and mobile navigation
+- 404 page
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React
+- JavaScript (ES6+)
+- React Router
+- Tailwind CSS
+- Vite
+- HTML5
+- CSS3
+- LocalStorage
+- Git & GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## React Concepts Used

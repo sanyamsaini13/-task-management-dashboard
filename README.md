@@ -4,6 +4,10 @@ A responsive frontend Task Management Dashboard built using React, React Router,
 
 The application allows users to manage tasks through a clean dashboard interface with task creation, editing, deletion, searching, filtering, status tracking, and localStorage persistence.
 
+## Live Demo
+
+[View Live Application](https://task-management-dashboard-jmh3bf7fj-sanyam1.vercel.app)
+
 ## Features
 
 - Login page with form validation
@@ -45,3 +49,120 @@ The application allows users to manage tasks through a clean dashboard interface
 - Git & GitHub
 
 ## React Concepts Used
+
+- Functional Components
+- Props
+- useState
+- useEffect
+- useMemo
+- Context API
+- Custom Hooks
+- Event Handling
+- Conditional Rendering
+- React Router
+- Protected Routes
+- Reusable Components
+
+## Project Structure
+
+```text
+src/
+├── components/
+│   ├── DashboardCard.jsx
+│   ├── Header.jsx
+│   ├── Layout.jsx
+│   ├── PriorityBadge.jsx
+│   ├── ProtectedRoute.jsx
+│   ├── Sidebar.jsx
+│   ├── StatusBadge.jsx
+│   └── TaskForm.jsx
+├── context/
+│   ├── TaskProvider.jsx
+│   └── taskContext.js
+├── data/
+│   └── mockTasks.js
+├── pages/
+│   ├── AddTask.jsx
+│   ├── Dashboard.jsx
+│   ├── EditTask.jsx
+│   ├── Login.jsx
+│   ├── NotFound.jsx
+│   ├── TaskDetails.jsx
+│   └── Tasks.jsx
+├── App.jsx
+├── index.css
+└── main.jsx
+```
+
+## Installation and Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sanyamsaini13/-task-management-dashboard.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd -task-management-dashboard
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+## Login
+
+This project uses frontend-only authentication for demonstration purposes.
+
+You can log in using any valid email address and a password containing at least 6 characters.
+
+Example:
+
+```text
+Email: demo@example.com
+Password: 123456
+```
+
+No backend authentication server is used.
+
+## Data Persistence
+
+Tasks and login-related information are stored in the browser using `localStorage`.
+
+This allows task changes to remain available after refreshing the page.
+
+## Responsive Design
+
+The application is designed to work across desktop, tablet, and mobile devices.
+
+On smaller screens, the sidebar changes into a mobile navigation menu.
+
+## Screenshots
+
+Screenshots of the application can be added here to demonstrate the Login, Dashboard, Task List, Add Task, Edit Task, and Task Details interfaces.
+
+## Author
+
+**Sanyam Saini**
+
+GitHub: [sanyamsaini13](https://github.com/sanyamsaini13)
+
+## Assignment
+
+This project was developed as a React.js Developer technical assignment for IndraQ Innovation Pvt. Ltd.
